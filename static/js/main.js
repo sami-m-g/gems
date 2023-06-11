@@ -170,6 +170,13 @@
   });
 
   /**
+   * Initiate icon lightbox 
+   */
+  const iconLightbox = GLightbox({
+    selector: '.icon'
+  });
+
+  /**
    * Initiate portfolio lightbox 
    */
   const portfolioLightbox = GLightbox({
