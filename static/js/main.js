@@ -257,6 +257,9 @@
   /**
    * Initiate Pure Counter 
    */
-  new PureCounter();
+  const config = {
+    separator: ','
+  };
+  new PureCounter(config);
 
 })()
