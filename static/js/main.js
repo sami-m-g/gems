@@ -179,6 +179,14 @@
   /**
    * Initiate portfolio lightbox 
    */
+    const topicLightbox = GLightbox({
+      selector: '.topic'
+    });
+  
+
+  /**
+   * Initiate portfolio lightbox 
+   */
   const portfolioLightbox = GLightbox({
     selector: '.img-fluid'
   });
